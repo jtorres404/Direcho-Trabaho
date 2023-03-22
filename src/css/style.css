@@ -1,0 +1,40 @@
+body {
+    background: url("../img/image1.jpg") no-repeat;
+    font-family: 'Golos Text', sans-serif;
+}
+p {
+    text-indent: 16px;
+    /* may spacing sa una ng paragraph */
+}
+#loremText {
+    text-align: justify;
+    text-decoration: solid;
+}
+#sample-link {
+    /* remove default line in links */
+    text-decoration: none;
+    color:black;
+}
+#uppercase-text {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 4px 2px rebeccapurple;
+    font-size: 1.5em;
+    /* 1 em equals to 16 px */
+}
+#bold-text {
+    font-weight: bold;
+
+}
+#bolder-text {
+    font-weight: bolder;
+
+}
+#lighter-text {
+    font-weight: lighter;
+    
+}
+#lighter-text {
+    font-weight: lighter;
+    
+}

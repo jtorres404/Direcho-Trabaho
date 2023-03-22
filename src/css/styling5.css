@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+.boxes {
+    border-width: 1px;
+    border-style: solid;
+    padding: 4px;
+    margin: 8px;
+    width: 100px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#box1 {
+    border-color:red;
+    background-image: url("../img/adobo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#box2 {
+    border-color: orange;
+}
+#box3 {
+    border-color: yellow;
+}
+#box4 {
+    border-color: blue;
+}
+#box5 {
+    border-color: aqua;
+}
+/* exercise */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.boxx {
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+}
+#box6 {
+    background-image: url("../img/incantation.jpg");
+    background-size: cover;
+    background-position: contain;
+    border-color:red;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* baba yung text */
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#box7 {
+    background-image: url("../img/seven.jpg");
+    background-size: cover;
+    background-position: contain;
+    border-color:orange;
+}
+#box8 {
+    background-image: url("../img/theuninvited.jpg");
+    background-size: cover;
+    background-position: contain;
+    border-color:blue;
+}
+#box9 {
+    background-image: url("../img/addams.jpg");
+    background-size: cover;
+    background-position: cover;
+    border-color:gray;
+    border-radius: 50%;
+}
+#box10 {
+    background-image: url("../img/themitchels.jpg");
+    background-size: cover;
+    background-position: contain;
+    border-color:orangered;
+}
+#box11 {
+    background-image: url("../img/bighero.jpeg");
+    background-size: cover;
+    background-position: contain;
+    border-color:red;
+}
+#box12 {
+    background-image: url("../img/theuninvited.jpg");
+    background-size: cover;
+    background-position: contain;
+    border-color:blue;
+}

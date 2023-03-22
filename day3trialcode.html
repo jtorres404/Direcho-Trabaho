@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables and Forms</title>
+    </head>
+    <body>
+        <!-- nav tag -->
+        <nav>
+            <a href="link">Day 2 code</a>
+            <a href="link2">Checker</a>
+        </nav>
+        <hr />
+        <!-- Example of table -->
+        <div class="NutriFacts">
+            <h3>Nutrition Facts</h3>
+            <table border="1">
+                <thead>
+                    <!-- thead yung sa tass -->
+                    <tr>
+                        <th colspan="4">
+                            Amount per serving
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sodium</td>
+                        <td>25mg</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Total Fat</td>
+                        <td>100mg</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Total Carbs</td>
+                        <td>80mg</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <td>Protein</td>
+                        <td>60mg</td>
+                        <td>30%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- START EXERCISE HERE -->
+        <div class="NutriFacts">
+            <h3>Nutrition Facts</h3>
+            <table border="1">
+                <thead>
+                    <!-- thead yung sa tass -->
+                    <tr>
+                        <th colspan="4">
+                            Amount per serving
+                        </th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sodium</td>
+                        <td>25mg</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Total Fat</td>
+                        <td>100mg</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Total Carbs</td>
+                        <td>80mg</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <td>Protein</td>
+                        <td>60mg</td>
+                        <td>30%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- ETONG EXAMPLE NAKITA KO W3SCHOOLS -->
+        <table border="1">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr />
+        <!-- FORM -->
+        <form>
+            First Name <br />
+            <input
+                type="text"
+                name="firstname"
+            />
+            <br />
+            Last Name <br />
+            <input
+                type="text"
+                name="lastname"
+            />
+        </form>
+        <hr />
+        <!-- Another form user, pass-->
+        <form action="/login.js">
+            <label for="username">
+            Username:
+            </label>
+            <br />
+                <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Enter username here"
+                />
+            <br />
+            <label for="pass">
+                Password:
+            </label>
+            <br />
+                <input
+                    type="password"
+                    name="passCode"
+                    id="pass"
+                    placeholder="Enter at least 8 characters"
+                />
+            <input
+                type="submit"
+                value="Submit"
+            />
+            <input
+                type="reset"
+                name="Reset"
+            />
+        </form>
+        <hr />
+        <!-- text area -->
+        <form>
+            <textarea
+            placeholder="Here">
+            </textarea>
+            <br />
+            <button>
+                You can assign Javascript actions
+            </button>
+        </form>
+        <hr />
+        <!-- number, email, date -->
+        <form>
+            <input
+                type="number"
+                name="num"
+            />
+            <br />
+            <input
+                type="email"
+                name="email"
+            />
+            <br />
+            <input
+                type="date"
+                name="date"
+            />
+            <br />
+            <br />
+
+            <label for="agreebox">
+                Check this
+            </label>
+            <input
+                type="checkbox"
+                name="agree"
+                id="agreebox"
+            />
+            <br />
+            Select this
+            <input
+                type="radio"
+                name="gender"
+                value="Male"
+            />
+            <input
+                type="radio"
+                name="gender"
+                value="Female"
+            />
+            <input
+                type="submit"
+                value="submit"
+            />
+            <br />
+        </form>
+        <hr />
+        <br />
+        <!-- DROPDOWN -->
+        <form>
+            <select name="cars"></select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <br />
+            <input
+                type="submit"
+                value="submit"
+            />
+        </form>
+        <!-- MAMAYA MO NA LAGAY LAGYAN MO NG LABEL -->
+    </body>
+</html>

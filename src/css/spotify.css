@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding: 12px;
+    color: #b3b3b3;
+}
+/* forda logo ang ferzon, logo size */
+#logo {
+    width: 140px;
+    height: 80px;
+    background-image: url("../img/spotify-logo.png");
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#links {
+    list-style-type: none;
+    padding-left: 0;
+}
+#links li {
+    margin: 6px 0px;
+}
+#links li:nth-child(3) {
+    margin-bottom: 24px;
+}
+#links li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    /* from here */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* yow this is the answer dun sa search bar */
+}
+#links li a.active {
+    color: white;
+}
+#links li a:hover{
+    color: white;
+}
+
+.links-icon {
+    margin-right: 8px;
+}
+#content {
+    background-color: #121212;
+    color: white;
+    margin-left: 240px;
+}
+.topbar {
+    background-color: #121212;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#back-button {
+    color: #b3b3b3;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
